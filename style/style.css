@@ -5,7 +5,7 @@ a{
     padding: 0%;
     margin: 0%;
     color: rgb(255, 255, 255);
-    font-family: sans-serif;
+    font-family: "Source Code Pro";
     font-size: medium;
     text-decoration: none;
 }
@@ -27,4 +27,18 @@ hr {
     padding-left: 0%;
     padding-right: 0%;
     padding-bottom: 10%;
+}
+.css-1fv8s86{
+    font-family: 'Source Code Pro';
+    font-weight: 300;
+}
+.css-1q8dd3e{
+    border-radius: 2rem;
+    width: 100%;
+    padding: 1rem 1rem 1rem 1rem ;
+    background-image: url('https://drive.google.com/file/d/1slHDA6ZuAmXT8scbzFYAHHq03HEUkjwe/view?usp=sharing');
+}
+.css-10trblm{
+    color:rgb(215, 101, 30);
+    align-content: center;
 }

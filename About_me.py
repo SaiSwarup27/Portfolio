@@ -113,8 +113,9 @@ with co2:
     with st.expander('Frame works'):
         st.text('''Tkinter   Opencv    Numpy
 Pandas    Sklearn    NLTK    
-TextBlob    Matplotlib    Keras
-Streamlit    Pillow    Tensor flow 
+TextBlob    Matplotlib   
+Keras    Streamlit   
+Pillow    Tensor flow 
 Flask   ''')
 with co3:
     with st.expander('Others'):

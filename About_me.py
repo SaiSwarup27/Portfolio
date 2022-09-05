@@ -86,43 +86,54 @@ line="""
  # ---- about page ----
 
 st_lottie(lottie2,height=100,key='hello')
-st.write('Iam Sai Swarup')
-column1,column2=st.columns(2)
-with column1:
-    st.text('''
-A Frontend web developer and very much passionate 
+st.write('_**Iam Sai Swarup**_')
+about_me="""
+<p style="font-family:"Source Code Pro";> A Frontend web developer and very much passionate 
 on Machine learning and Deep learning. 
 
 And having very good progromming skills on python
 c, c++.
 
-Working with my hands to make magic in my life
-''')
+Working with my hands to make magic in my life </p>"""
+column1,column2=st.columns([2,1])
+with column1:
+    st.markdown(about_me,unsafe_allow_html=True)
 with column2:
     st_lottie(lottie5,height=200,key='coding')
 
 st.markdown(line,unsafe_allow_html=True)
 
-co1,co2=st.columns(2)
+st.subheader('Technologies')
+co1,co2,co3=st.columns(3)
 with co1:
     with st.expander('Technical skills'):
-        st.text('''Python    C    C++    Html and CSS''')
+        st.text('''Python    C    C++
+Html    CSS    Javascript''')
 with co2:
     with st.expander('Frame works'):
-        st.text('''Tkinter   Opencv    Numpy   Pandas
-Sklearn    NLP    Streamlit    Pillow
-Tensor flow    ''')
+        st.text('''Tkinter   Opencv    Numpy
+Pandas    Sklearn    NLTK    
+TextBlob    Matplotlib    Keras
+Streamlit    Pillow    Tensor flow 
+Flask   ''')
+with co3:
+    with st.expander('Others'):
+        st.text('''Excel    git    SQL
+Arduino    VRML    Matlab       ''')
+
 
 
 st.markdown(line,unsafe_allow_html=True)
 
-st.markdown(line,unsafe_allow_html=True)
 st.subheader('Hobbies')
 col1,col2=st.columns(2)
 with col1:
-    st.write('Playing Chess')
+    st.text('''Playing Chess
+Listening Music
+Exploring ideas and Knowledge
+Clubs and Social Activities''')
 with col2:
-    st_lottie(lottie4,height=200,key='chess')
+    st_lottie(lottie4,height=150,key='chess')
 st.markdown(line,unsafe_allow_html=True)
 
 #-------------------------------------

@@ -30,7 +30,7 @@ if st.button('Enduro Python certificate from IIT Kharagpur'):
 if st.button('Coursera Web App with Python and Flask'):
     webbrowser.open_new(url2)
 if st.button('Linkedin Learning Data Analytics'):
-    webbrowser.open_new_tab(url3)
+    webbrowser.open(url3)
 if st.button('Teachnook AI Internship'):
     webbrowser.open_new_tab(url4)
 if st.button('Teachnook AI Course Completion'):

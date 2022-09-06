@@ -26,7 +26,7 @@ url12 = ''
 url13 = ''
 
 if st.button('Enduro Python certificate from IIT Kharagpur'):
-    webbrowser.open_new_tab(url1)
+    webbrowser.open(url1)
 if st.button('Coursera Web App with Python and Flask'):
     webbrowser.open_new_tab(url2)
 if st.button('Linkedin Learning Data Analytics'):

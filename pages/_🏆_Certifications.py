@@ -16,8 +16,8 @@ st_lottie(lottie1,height=100,key='certificate')
 
 #----------------------------------------
 st.subheader('Certifications')
-url1 = 'https://www.google.com/search?q=google+%5D.com&rlz=1C1CHBF_enIN926IN926&oq=google+%5D.com&aqs=chrome..69i57j0i131i433i512j0i512l3j69i65l3.4487j0j7&sourceid=chrome&ie=UTF-8'
-#url1 = 'https://drive.google.com/file/d/1slHDA6ZuAmXT8scbzFYAHHq03HEUkjwe/view?usp=sharing'
+
+url1 = 'https://drive.google.com/file/d/1slHDA6ZuAmXT8scbzFYAHHq03HEUkjwe/view?usp=sharing'
 url2 = 'https://drive.google.com/file/d/1zkQXg5upuDK64ZJZJLGkDkOKTGSWbL3L/view?usp=sharing'
 url3 = 'https://drive.google.com/file/d/180WUlAkYJdBqoEcvzSVEk7s4a4xZGx1P/view?usp=sharing'
 url4 = 'https://drive.google.com/file/d/1jbIok_Gdb_-vt4z3f8s7WZ1yILPun1lA/view?usp=sharing'
@@ -25,6 +25,9 @@ url5 = 'https://drive.google.com/file/d/1LlVcHqxUd9F7vxHODUr7pdZATxrgpRSZ/view?u
 url11 = ''
 url12 = ''
 url13 = ''
+
+url = "https://www.streamlit.io"
+st.write("check out this [link](%s)" % url)
 
 if st.button('Enduro Python certificate from IIT Kharagpur'):
     webbrowser.open(url1)

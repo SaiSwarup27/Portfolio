@@ -26,10 +26,8 @@ url11 = ''
 url12 = ''
 url13 = ''
 
-url = "https://drive.google.com/file/d/1slHDA6ZuAmXT8scbzFYAHHq03HEUkjwe/view?usp=sharing"
-st.write("check out this [link](%s)" % url)
-
-st.button('Enduro Python certificate from IIT Kharagpur [link](%s)'%url)
+if st.button('Enduro Python certificate from IIT Kharagpur'):
+    webbrowser.open_new(url1)
 if st.button('Coursera Web App with Python and Flask'):
     webbrowser.open_new(url2)
 if st.button('Linkedin Learning Data Analytics'):

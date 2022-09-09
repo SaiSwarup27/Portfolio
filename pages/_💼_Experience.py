@@ -43,3 +43,86 @@ def load_lottieurl(url):
 
 lottie1=load_lottieurl("https://assets8.lottiefiles.com/packages/lf20_88z2psap.json")
 st_lottie(lottie1,height=300,key='Experience')
+
+#-----------------experience
+st.subheader('Clubs and Activities')
+co1,co2=st.columns(2)
+with co1:
+    st.write('##### Geeks for Geeks SRM')
+    code1="""
+    <div class='optizen'>
+        <p> Technical Member (Machine Learning)</p>
+        <div class='inneroptizen'>
+            <p> 2022 present  </p>
+                    <p> ↑  </p>
+            <p>2021 October</p>
+        </div>
+    </div>
+    """
+    st.markdown(code1,unsafe_allow_html=True)
+    st.markdown(bre,unsafe_allow_html=True)
+
+    st.write('##### Next Gen AI SRM')
+    code2="""
+    <div class='optizen'>
+        <p> Technical Member (NLP)</p>
+        <div class='inneroptizen'>
+            <p> 2022 present  </p>
+                    <p> ↑  </p>
+            <p>2022 April</p>
+        </div>
+    </div>
+    """
+    st.markdown(code2,unsafe_allow_html=True)
+    st.markdown(bre,unsafe_allow_html=True)
+with co2:
+    st.write('##### Optizen SRM')
+    code3="""
+    <div class='optizen'>
+        <p> Technical Member (Machine Learning)</p>
+        <div class='inneroptizen'>
+            <p> 2022 present  </p>
+                    <p > ↑  </p>
+            <p>2021 August</p>
+        </div>
+    </div>
+    """
+    st.markdown(code3,unsafe_allow_html=True)
+    st.markdown(bre,unsafe_allow_html=True)
+
+st.markdown(bre,unsafe_allow_html=True)
+st.markdown(bre,unsafe_allow_html=True)
+st.subheader('Intership')
+col1,col2=st.columns(2)
+with col1:
+    st.write('##### Glocybs')
+    code4="""
+    <div class='optizen'>
+        <p> Machine Learning Domain </p>
+        <div class='inneroptizen'>
+            <p> 2022 present  </p>
+                    <p> ↑  </p>
+            <p>2022 June</p>
+        </div>
+    </div>
+    """
+    st.markdown(code4,unsafe_allow_html=True)
+st.markdown(bre,unsafe_allow_html=True)
+
+
+
+
+
+
+
+
+
+
+
+
+
+# --- external css ----
+def local_css(file_name):
+    with open(file_name) as f:
+        st.markdown(f"<style>{f.read()}</style>",unsafe_allow_html=True)
+local_css("style/style.css")

@@ -54,7 +54,7 @@ with col1:
         <div class='project'>
             <p> NLP Chat bot</p>
             <div class='innerproject'>
-                    <p> A Deep Learning </br> based Chat Bot  </p>
+                    <p> A Deep Learning based Chat Bot  </p>
             </div>
         </div>
         """
@@ -69,6 +69,73 @@ with col1:
         """
         st.markdown(code1,unsafe_allow_html=True)
         st.markdown(bre,unsafe_allow_html=True)
+    
+    tab1,tab2=st.tabs(['project','Description'])
+    with tab1:
+        code1="""
+        <div class='project'>
+            <p> Animal Intrusion Detection</p>
+            <div class='innerproject'>
+                    <p>Animal Detection using YOLOv5 </p>
+            </div>
+        </div>
+        """
+        st.markdown(code1,unsafe_allow_html=True)
+        st.markdown(bre,unsafe_allow_html=True)
+    with tab2:
+        code1="""
+        <div class='description'>
+            <p>Classifying various classes of animals using Yolov5 algorithm </p>
+            <a href='https://github.com/SaiSwarup27/Animal-Intrusion-Detection'> click here </a>
+        </div>
+        """
+        st.markdown(code1,unsafe_allow_html=True)
+        st.markdown(bre,unsafe_allow_html=True)
+
+    tab1,tab2=st.tabs(['project','Description'])
+    with tab1:
+        code1="""
+        <div class='project'>
+            <p>Smart Pits</p>
+            <div class='innerproject'>
+                    <p>An IOT based project</p>
+            </div>
+        </div>
+        """
+        st.markdown(code1,unsafe_allow_html=True)
+        st.markdown(bre,unsafe_allow_html=True)
+    with tab2:
+        code1="""
+        <div class='description'>
+            <p>Helps in increasing of ground water level by rain and taking safety precautions for the children from pits.</p>
+            <a href='https://github.com/SaiSwarup27/Smart-Pits'> click here </a>
+        </div>
+        """
+        st.markdown(code1,unsafe_allow_html=True)
+        st.markdown(bre,unsafe_allow_html=True)
+
+    tab1,tab2=st.tabs(['project','Description'])
+    with tab1:
+        code1="""
+        <div class='project'>
+            <p>Tic Tac Toe</p>
+            <div class='innerproject'>
+                    <p>Tic-Tac-Toe game using Tkinter</p>
+            </div>
+        </div>
+        """
+        st.markdown(code1,unsafe_allow_html=True)
+        st.markdown(bre,unsafe_allow_html=True)
+    with tab2:
+        code1="""
+        <div class='description'>
+            <p>Build Tic-Tac-Toe Game using Tkinter GUI</p>
+            <a href='https://github.com/SaiSwarup27/Tic-Tac-Toe-using-Tkinter'> click here </a>
+        </div>
+        """
+        st.markdown(code1,unsafe_allow_html=True)
+        st.markdown(bre,unsafe_allow_html=True)
+
 
 with col2:
     tab1,tab2=st.tabs(['project','Description'])
@@ -77,7 +144,7 @@ with col2:
         <div class='project'>
             <p> Text Correction and Translation</p>
             <div class='innerproject'>
-                    <p> A Deep Learning </br> based Chat Bot  </p>
+                    <p> A NLP based text auto correction and translation </p>
             </div>
         </div>
         """
@@ -86,12 +153,79 @@ with col2:
     with tab2:
         code1="""
         <div class='description'>
-            <p>Which helps you to clarify doubts based on NLP </p>
-            <a href='https://github.com/SaiSwarup27/NLP-ChatBot'> click here </a>
+            <p>Correcting wrongly spelled words and translating into another language using TextBlob</p>
+            <a href='https://github.com/SaiSwarup27/Text-Correction-and-translation'> click here </a>
         </div>
         """
         st.markdown(code1,unsafe_allow_html=True)
         st.markdown(bre,unsafe_allow_html=True)
+
+    tab1,tab2=st.tabs(['project','Description'])
+    with tab1:
+        code1="""
+        <div class='project'>
+            <p> Crowd Prediction</p>
+            <div class='innerproject'>
+                    <p>Crowd prediction in gym using Random Forest Regressor</p>
+            </div>
+        </div>
+        """
+        st.markdown(code1,unsafe_allow_html=True)
+        st.markdown(bre,unsafe_allow_html=True)
+    with tab2:
+        code1="""
+        <div class='description'>
+            <p>Crowd prediction in gym using Random Forest Regressor Algorithm</p>
+            <a href='https://github.com/SaiSwarup27/Crowd-Prediction'> click here </a>
+        </div>
+        """
+        st.markdown(code1,unsafe_allow_html=True)
+        st.markdown(bre,unsafe_allow_html=True)
+
+    tab1,tab2=st.tabs(['project','Description'])
+    with tab1:
+        code1="""
+        <div class='project'>
+            <p>Image Finder</p>
+            <div class='innerproject'>
+                    <p> Searching a part of an image in an original image</p>
+            </div>
+        </div>
+        """
+        st.markdown(code1,unsafe_allow_html=True)
+        st.markdown(bre,unsafe_allow_html=True)
+    with tab2:
+        code1="""
+        <div class='description'>
+            <p>Searching a part of an image in an original image using Computer Vision</p>
+            <a href='https://github.com/SaiSwarup27/Image-finder'> click here </a>
+        </div>
+        """
+        st.markdown(code1,unsafe_allow_html=True)
+        st.markdown(bre,unsafe_allow_html=True)
+
+    tab1,tab2=st.tabs(['project','Description'])
+    with tab1:
+        code1="""
+        <div class='project'>
+            <p>Counting Objects</p>
+            <div class='innerproject'>
+                    <p>Counting number of Objects using Python-OpenCV</p>
+            </div>
+        </div>
+        """
+        st.markdown(code1,unsafe_allow_html=True)
+        st.markdown(bre,unsafe_allow_html=True)
+    with tab2:
+        code1="""
+        <div class='description'>
+            <p>Counting number of Objects using Python-OpenCV</p>
+            <a href='https://github.com/SaiSwarup27/Counting-Objects'> click here </a>
+        </div>
+        """
+        st.markdown(code1,unsafe_allow_html=True)
+        st.markdown(bre,unsafe_allow_html=True)
+
 
 with col3:
     tab1,tab2=st.tabs(['project','Description'])
@@ -115,6 +249,73 @@ with col3:
         """
         st.markdown(code1,unsafe_allow_html=True)
         st.markdown(bre,unsafe_allow_html=True)
+
+    tab1,tab2=st.tabs(['project','Description'])
+    with tab1:
+        code1="""
+        <div class='project'>
+            <p> Language Detection</p>
+            <div class='innerproject'>
+                    <p> NLP Language detection </p>
+            </div>
+        </div>
+        """
+        st.markdown(code1,unsafe_allow_html=True)
+        st.markdown(bre,unsafe_allow_html=True)
+    with tab2:
+        code1="""
+        <div class='description'>
+            <p>NLP Language detection using various Machine Learning Algorithms</p>
+            <a href='https://github.com/SaiSwarup27/Language-detection'> click here </a>
+        </div>
+        """
+        st.markdown(code1,unsafe_allow_html=True)
+        st.markdown(bre,unsafe_allow_html=True)
+
+    tab1,tab2=st.tabs(['project','Description'])
+    with tab1:
+        code1="""
+        <div class='project'>
+            <p>Cryotherapy Classification</p>
+            <div class='innerproject'>
+                    <p>Classification of Cryotherapy dataset </p>
+            </div>
+        </div>
+        """
+        st.markdown(code1,unsafe_allow_html=True)
+        st.markdown(bre,unsafe_allow_html=True)
+    with tab2:
+        code1="""
+        <div class='description'>
+            <p>Classification of Cryotherapy dataset using Logistic Regression algorithm</p>
+            <a href='https://github.com/SaiSwarup27/Cryotherapy-Classification'> click here </a>
+        </div>
+        """
+        st.markdown(code1,unsafe_allow_html=True)
+        st.markdown(bre,unsafe_allow_html=True)
+
+    tab1,tab2=st.tabs(['project','Description'])
+    with tab1:
+        code1="""
+        <div class='project'>
+            <p>Glocybs Bot</p>
+            <div class='innerproject'>
+                    <p>A Deep Learning based Chat Bot </p>
+            </div>
+        </div>
+        """
+        st.markdown(code1,unsafe_allow_html=True)
+        st.markdown(bre,unsafe_allow_html=True)
+    with tab2:
+        code1="""
+        <div class='description'>
+            <p>A speech-text and text-text conversational chat bot</p>
+            <a href='https://github.com/GLOCYBS-COM/Chat-Bot'> click here </a>
+        </div>
+        """
+        st.markdown(code1,unsafe_allow_html=True)
+        st.markdown(bre,unsafe_allow_html=True)
+
 
 
 

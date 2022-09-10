@@ -186,9 +186,9 @@ with col2:
     with tab1:
         code1="""
         <div class='project'>
-            <p>Image Finder</p>
+            <p>Damaged tree Detection</p>
             <div class='innerproject'>
-                    <p> Searching a part of an image in an original image</p>
+                    <p>Detecting number of trees damaged </p>
             </div>
         </div>
         """
@@ -197,8 +197,8 @@ with col2:
     with tab2:
         code1="""
         <div class='description'>
-            <p>Searching a part of an image in an original image using Computer Vision</p>
-            <a href='https://github.com/SaiSwarup27/Image-finder'> click here </a>
+            <p>Predicting environment loss after a natural disaster happens</p>
+            <a href='https://github.com/SaiSwarup27/Damaged-tree-detection'> click here </a>
         </div>
         """
         st.markdown(code1,unsafe_allow_html=True)

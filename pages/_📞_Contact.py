@@ -82,7 +82,6 @@ st.markdown(bre,unsafe_allow_html=True)
 
 
 
-
 # --- external css ----
 def local_css(file_name):
     with open(file_name) as f:

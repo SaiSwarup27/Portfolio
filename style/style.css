@@ -85,3 +85,24 @@ hr {
     border-style: outset;
     height: 250px;
 }
+
+.fa {
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.s{
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+.social{
+    border: 4px solid rgb(228, 78, 45);
+    color:rgb(255, 255, 255);
+    padding: 40px;
+    border-radius: 2rem;
+    border-style: outset;
+    height: 300px;
+}
+
+  

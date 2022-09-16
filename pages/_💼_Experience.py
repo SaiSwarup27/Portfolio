@@ -1,6 +1,5 @@
 import streamlit as st
 from streamlit_lottie import st_lottie
-from streamlit_option_menu import option_menu
 import requests
 
 # ---- removing padding across website -----
@@ -35,7 +34,6 @@ st.markdown("""
 bre="""
     </br>
     """
-
 # -----------------------------------------
 
 def load_lottieurl(url):
@@ -46,6 +44,7 @@ def load_lottieurl(url):
 
 lottie1=load_lottieurl("https://assets8.lottiefiles.com/packages/lf20_88z2psap.json")
 st_lottie(lottie1,height=300,key='Experience')
+
 
 #-----------------experience
 st.subheader('Clubs and Activities')
@@ -110,7 +109,6 @@ with col1:
     </div>
     """
     st.markdown(code4,unsafe_allow_html=True)
-    st.markdown(bre,unsafe_allow_html=True)
 st.markdown(bre,unsafe_allow_html=True)
 
 

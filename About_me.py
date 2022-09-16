@@ -91,7 +91,7 @@ about_me="""
 <p style="font-family:"Source Code Pro";> A Frontend web developer and very much passionate 
 on Machine learning and Deep learning. 
 
-And having very good progromming skills on python
+And having very good progromming skills in python,
 c, c++.
 
 Working with my hands to make magic in my life </p>"""
@@ -113,10 +113,9 @@ with co2:
     with st.expander('Frame works'):
         st.text('''Tkinter   Opencv    Numpy
 Pandas    Sklearn    NLTK    
-TextBlob    Matplotlib   
-Keras    Streamlit   
-Pillow    Tensor flow 
-Flask   ''')
+TextBlob    Matplotlib    Keras
+Streamlit    Pillow    Flask  
+Tensor flow ''')
 with co3:
     with st.expander('Others'):
         st.text('''Excel    git    SQL

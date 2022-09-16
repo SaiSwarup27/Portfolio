@@ -1,3 +1,4 @@
+from tkinter.ttk import Style
 import streamlit as st
 from streamlit_lottie import st_lottie
 from streamlit_option_menu import option_menu
@@ -16,7 +17,6 @@ st_lottie(lottie1,height=100,key='certificate')
 
 #----------------------------------------
 st.subheader('Certifications')
-
 url1 = 'https://drive.google.com/file/d/1slHDA6ZuAmXT8scbzFYAHHq03HEUkjwe/view?usp=sharing'
 url2 = 'https://drive.google.com/file/d/1zkQXg5upuDK64ZJZJLGkDkOKTGSWbL3L/view?usp=sharing'
 url3 = 'https://drive.google.com/file/d/180WUlAkYJdBqoEcvzSVEk7s4a4xZGx1P/view?usp=sharing'
@@ -26,12 +26,13 @@ url11 = ''
 url12 = ''
 url13 = ''
 
+
 if st.button('Enduro Python certificate from IIT Kharagpur'):
-    webbrowser.open_new(url1)
+    webbrowser.open(url1)
 if st.button('Coursera Web App with Python and Flask'):
-    webbrowser.open_new(url2)
+    webbrowser.open_new_tab(url2)
 if st.button('Linkedin Learning Data Analytics'):
-    webbrowser.open(url3)
+    webbrowser.open_new_tab(url3)
 if st.button('Teachnook AI Internship'):
     webbrowser.open_new_tab(url4)
 if st.button('Teachnook AI Course Completion'):
@@ -62,6 +63,7 @@ if st.button('NVIDIA Building Transformer Based NLP'):
     webbrowser.open_new_tab(url9)
 if st.button('NVIDIA Fundamentals of Deep Learning'):
     webbrowser.open_new_tab(url10)
+
 
 
 

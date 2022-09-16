@@ -118,9 +118,9 @@ with col1:
     with tab1:
         code1="""
         <div class='project'>
-            <p>Tic Tac Toe</p>
+            <p>Glocybs Bot</p>
             <div class='innerproject'>
-                    <p>Tic-Tac-Toe game using Tkinter</p>
+                    <p>A Deep Learning based Chat Bot </p>
             </div>
         </div>
         """
@@ -129,13 +129,12 @@ with col1:
     with tab2:
         code1="""
         <div class='description'>
-            <p>Build Tic-Tac-Toe Game using Tkinter GUI</p>
-            <a href='https://github.com/SaiSwarup27/Tic-Tac-Toe-using-Tkinter'> click here </a>
+            <p>A speech-text and text-text conversational chat bot</p>
+            <a href='https://github.com/GLOCYBS-COM/Chat-Bot'> click here </a>
         </div>
         """
         st.markdown(code1,unsafe_allow_html=True)
         st.markdown(bre,unsafe_allow_html=True)
-
 
 with col2:
     tab1,tab2=st.tabs(['project','Description'])
@@ -204,27 +203,6 @@ with col2:
         st.markdown(code1,unsafe_allow_html=True)
         st.markdown(bre,unsafe_allow_html=True)
 
-    tab1,tab2=st.tabs(['project','Description'])
-    with tab1:
-        code1="""
-        <div class='project'>
-            <p>Counting Objects</p>
-            <div class='innerproject'>
-                    <p>Counting number of Objects using Python-OpenCV</p>
-            </div>
-        </div>
-        """
-        st.markdown(code1,unsafe_allow_html=True)
-        st.markdown(bre,unsafe_allow_html=True)
-    with tab2:
-        code1="""
-        <div class='description'>
-            <p>Counting number of Objects using Python-OpenCV</p>
-            <a href='https://github.com/SaiSwarup27/Counting-Objects'> click here </a>
-        </div>
-        """
-        st.markdown(code1,unsafe_allow_html=True)
-        st.markdown(bre,unsafe_allow_html=True)
 
 
 with col3:
@@ -294,27 +272,6 @@ with col3:
         st.markdown(code1,unsafe_allow_html=True)
         st.markdown(bre,unsafe_allow_html=True)
 
-    tab1,tab2=st.tabs(['project','Description'])
-    with tab1:
-        code1="""
-        <div class='project'>
-            <p>Glocybs Bot</p>
-            <div class='innerproject'>
-                    <p>A Deep Learning based Chat Bot </p>
-            </div>
-        </div>
-        """
-        st.markdown(code1,unsafe_allow_html=True)
-        st.markdown(bre,unsafe_allow_html=True)
-    with tab2:
-        code1="""
-        <div class='description'>
-            <p>A speech-text and text-text conversational chat bot</p>
-            <a href='https://github.com/GLOCYBS-COM/Chat-Bot'> click here </a>
-        </div>
-        """
-        st.markdown(code1,unsafe_allow_html=True)
-        st.markdown(bre,unsafe_allow_html=True)
 
 
 

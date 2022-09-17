@@ -99,10 +99,12 @@ hr {
 .social{
     border: 4px solid rgb(228, 78, 45);
     color:rgb(255, 255, 255);
-    padding: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     border-radius: 2rem;
     border-style: outset;
-    height: 300px;
+    text-align: center;
 }
+  /* Add a hover effect if you want */
 
   

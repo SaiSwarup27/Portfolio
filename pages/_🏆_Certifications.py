@@ -21,9 +21,9 @@ url2 = 'https://drive.google.com/file/d/1zkQXg5upuDK64ZJZJLGkDkOKTGSWbL3L/view?u
 url3 = 'https://drive.google.com/file/d/180WUlAkYJdBqoEcvzSVEk7s4a4xZGx1P/view?usp=sharing'
 url4 = 'https://drive.google.com/file/d/1jbIok_Gdb_-vt4z3f8s7WZ1yILPun1lA/view?usp=sharing'
 url5 = 'https://drive.google.com/file/d/1LlVcHqxUd9F7vxHODUr7pdZATxrgpRSZ/view?usp=sharing'
-url11 = ''
-url12 = ''
-url13 = ''
+url11 = 'https://drive.google.com/file/d/1LlVcHqxUd9F7vxHODUr7pdZATxrgpRSZ/view?usp=sharing'
+url12 = 'https://drive.google.com/file/d/1LlVcHqxUd9F7vxHODUr7pdZATxrgpRSZ/view?usp=sharing'
+url13 = 'https://drive.google.com/file/d/1LlVcHqxUd9F7vxHODUr7pdZATxrgpRSZ/view?usp=sharing'
 
 
 if st.button('Enduro Python certificate from IIT Kharagpur'):
